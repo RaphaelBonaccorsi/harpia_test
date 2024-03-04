@@ -53,7 +53,7 @@ Harpia is a system for UAV mission and path planning. The project aims to provid
 - [MAVROS installation guide](https://docs.px4.io/main/en/ros/mavros_installation.html)
 - `sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras`
 - `sudo apt-get install ros-${ROS_DISTRO}-mavros ros-${ROS_DISTRO}-mavros-extras ros-${ROS_DISTRO}-mavros-msgs`
-- `wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts`
+- `wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh`
 - `sudo bash ./install_geographiclib_datasets.sh`
 - `sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev`
 
