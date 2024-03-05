@@ -77,7 +77,7 @@ Harpia is a system for UAV mission and path planning. The project aims to provid
 
 ### Project setup
 
-- `git clone https://github.com/vvannini/harpia`
+- `git clone https://github.com/RaphaelBonaccorsi/harpia_test/`
 
 ### Things you might need to do
 
@@ -85,7 +85,7 @@ Harpia is a system for UAV mission and path planning. The project aims to provid
 
 ### Build
 
-- `cd harpia`
+- `cd harpia_test`
 - `catkin build`
 
 - go to `harpia/src/rosplan/rosplan_planning_system` and unzip common folder
@@ -95,10 +95,6 @@ Harpia is a system for UAV mission and path planning. The project aims to provid
 
 Open QGroundControl
 
-### Launcher
-- `Check if PX4-Autopilot is on the home directory of the user, otherwise change the px4path variable in the launcher.py file`
-- `python3 launcher.py`
-
 #### Terminal 1
 - `sudo su`
 - `cd PX4-Autopilot`
@@ -106,13 +102,13 @@ Open QGroundControl
 
 #### Starting harpia system
 ##### Terminal 2
-- `cd harpia`
+- `cd harpia_test`
 - `source devel/setup.bash`
 - `roslaunch harpia.launch`
 
 #### Starting a new mission
 ##### Terminal 3
-- `cd harpia`
+- `cd harpia_test`
 - `source devel/setup.bash`
 - `rosrun mission_planning test_client.py <ID_MISSION> <ID_MAP> <ID_DRONE>`
 
